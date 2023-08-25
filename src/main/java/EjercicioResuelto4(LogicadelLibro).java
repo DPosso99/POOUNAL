@@ -2,7 +2,7 @@
 */
 //Ejercicio en clase 1
 // David Taimal 
-public class Ejercicios1 {
+public class EjercicioResuelto4(LogicadelLibro) {
     public static void main(String[] args) {
         int edalbert, edana, edmama, edjuan = 9; //edad de juan 
         edalbert = 2* (edjuan/3); //edad de albertoi 
