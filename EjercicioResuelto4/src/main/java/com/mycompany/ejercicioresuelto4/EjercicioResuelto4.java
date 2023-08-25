@@ -16,9 +16,9 @@ public class EjercicioResuelto4 {
         edalbert = 2* (edjuan/3); //Edad de Alberto 
         edana = 4* (edjuan/3); //Edad de Ana 
         edmama = edalbert + edjuan + edana;//Edad de la madre 
-    System.out.println("Juan tiene :" + edjuan); 
-    System.out.println("Aleberto tiene :" + edalbert);
-    System.out.println("Ana tiene :" + edana);
-    System.out.println("La madre tiene :" + edmama);
+    System.out.println("Juan tiene :" + edjuan + "años"); 
+    System.out.println("Aleberto tiene :" + edalbert + "años");
+    System.out.println("Ana tiene :" + edana + "años");
+    System.out.println("La madre tiene :" + edmama + "años");
     }
 }
