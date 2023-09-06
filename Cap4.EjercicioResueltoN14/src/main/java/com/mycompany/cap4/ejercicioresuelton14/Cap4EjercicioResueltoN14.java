@@ -17,7 +17,7 @@ public class Cap4EjercicioResueltoN14 {
         double salv1, salv2, salv3;
         //definimos el tipo variables que vamos a usar 
         Scanner entrada = new Scanner (System.in);
-        System.out.println("ingerese las ventas del departamento 1");// pedimos que ingren los datos de las ventas de cada departamento. 
+        System.out.println("ingerese las ventas del departamento 1");// pedimos que ingresen los datos de las ventas de cada departamento. 
         ventasd1 = entrada.nextDouble(); 
         
         System.out.println("ingrese las ventas del departamento 2");
@@ -30,10 +30,10 @@ public class Cap4EjercicioResueltoN14 {
         salario = entrada.nextDouble();
         
         tventas = (ventasd1 + ventasd2 + ventasd3); // Ventas totales de de la empresa    
-        porventas = (0.3*tventas); /*Calculamos el porcentaje de ventas cuando los departamentos excedan el 33% de las ventas totales*/
+        porventas = (0.3*tventas); /**Calculamos el porcentaje de ventas cuando los departamentos excedan el 33% de las ventas totales*/
         
-        if(ventasd1 > porventas){ /*condicional donde comprabamos si las ventas del departamentos 
-                                1 son mayores a el 33% de las ventas totales*/
+        if(ventasd1 > porventas){ 
+            /**condicional donde comprabamos si las ventas del departamento 1 son mayores a el 33% de las ventas totales*/
             salv1 = (salario + (0.2*salario)); //calculo del salario si cumplen la condicion anterio. 
         }
         else {
