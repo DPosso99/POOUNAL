@@ -20,13 +20,13 @@ public class Cap4EjercicioResueltoN14 {
         System.out.println("ingerese las ventas del departamento 1");// pedimos que ingren los datos de las ventas de cada departamento. 
         ventasd1 = entrada.nextDouble(); 
         
-        System.out.println("ingerese las ventas del departamento 2");
+        System.out.println("ingrese las ventas del departamento 2");
         ventasd2 = entrada.nextDouble();
         
-        System.out.println("ingerese las ventas del departamento 3");
+        System.out.println("ingrese las ventas del departamento 3");
         ventasd3 = entrada.nextDouble();
         
-        System.out.println("ingerese el salario base de los vendedores");
+        System.out.println("ingrese el salario base de los vendedores");
         salario = entrada.nextDouble();
         
         tventas = (ventasd1 + ventasd2 + ventasd3); // Ventas totales de de la empresa    
