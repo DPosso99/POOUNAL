@@ -30,7 +30,7 @@ public class EjercicioPropuestoN21 {
         perimetro = (a + b + c); //calculamos el perimetro como la suma de sus lados.
         semiper = ((a + b + c)/2);//calculamos el semiperimetro como la suma de sus lados sobre 2. 
         area = (Math.sqrt((semiper * (semiper - a) * (semiper - b) * (semiper - c))));
-        /*El area la calculamos con la formula de Heron a partir de su semiperimetro */
+        /**El area la calculamos con la formula de Heron a partir de su semiperimetro */
         
         System.out.print("El perimetro del triangulo es: " + perimetro + '\n');
         System.out.print("El semiperimetro del triangulo es: " + semiper + '\n');
