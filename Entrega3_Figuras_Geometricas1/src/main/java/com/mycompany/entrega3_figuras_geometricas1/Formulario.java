@@ -26,21 +26,302 @@ public class Formulario extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        txtRadio = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        txtBaseR = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
+        txtAlturaR = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        txtLadoCuadrado = new javax.swing.JTextField();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        txtBaseTR = new javax.swing.JTextField();
+        jLabel10 = new javax.swing.JLabel();
+        txtAlturaTR = new javax.swing.JTextField();
+        txtArea = new javax.swing.JLabel();
+        txtPerimetro = new javax.swing.JLabel();
+        txtTipo = new javax.swing.JLabel();
+        bttCalcularCirculo = new javax.swing.JButton();
+        bttCalcularRectangulo = new javax.swing.JButton();
+        bttCalcularCuadrado = new javax.swing.JButton();
+        bttCalcularTR = new javax.swing.JButton();
+        bttBorrar = new javax.swing.JButton();
+        bttSalir = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel1.setText("Circulo");
+
+        jLabel2.setText("Radio:");
+
+        txtRadio.setText(" ");
+
+        jLabel3.setText("Rectangulo");
+
+        jLabel4.setText("Base:");
+
+        txtBaseR.setText(" ");
+
+        jLabel5.setText("Altura:");
+
+        txtAlturaR.setText(" ");
+
+        jLabel6.setText("Cuadrado");
+
+        jLabel7.setText("Lado:");
+
+        txtLadoCuadrado.setText(" ");
+
+        jLabel8.setText("Triangulo Rectangulo");
+
+        jLabel9.setText("Base: ");
+
+        txtBaseTR.setText(" ");
+
+        jLabel10.setText("Altura:");
+
+        txtAlturaTR.setText(" ");
+
+        txtArea.setText(" ");
+
+        txtPerimetro.setText(" ");
+
+        txtTipo.setText(" ");
+
+        bttCalcularCirculo.setText("Calcular");
+        bttCalcularCirculo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bttCalcularCirculoActionPerformed(evt);
+            }
+        });
+
+        bttCalcularRectangulo.setText("Calcular");
+        bttCalcularRectangulo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bttCalcularRectanguloActionPerformed(evt);
+            }
+        });
+
+        bttCalcularCuadrado.setText("Calcular");
+        bttCalcularCuadrado.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bttCalcularCuadradoActionPerformed(evt);
+            }
+        });
+
+        bttCalcularTR.setText("Calcular");
+        bttCalcularTR.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bttCalcularTRActionPerformed(evt);
+            }
+        });
+
+        bttBorrar.setText("Borrar");
+        bttBorrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bttBorrarActionPerformed(evt);
+            }
+        });
+
+        bttSalir.setText("Salir");
+        bttSalir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                bttSalirActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(44, 44, 44)
+                        .addComponent(jLabel9)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtBaseTR, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtAlturaTR, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(bttCalcularTR))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(45, 45, 45)
+                        .addComponent(jLabel2)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtRadio, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(158, 158, 158)
+                        .addComponent(bttCalcularCirculo))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(21, 21, 21)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel1)
+                            .addComponent(jLabel6)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(26, 26, 26)
+                                .addComponent(jLabel7)
+                                .addGap(18, 18, 18)
+                                .addComponent(txtLadoCuadrado, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel8)
+                            .addComponent(txtArea, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(txtPerimetro, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(txtTipo, javax.swing.GroupLayout.DEFAULT_SIZE, 447, Short.MAX_VALUE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(46, 46, 46)
+                        .addComponent(jLabel4)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtBaseR, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtAlturaR, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bttCalcularCuadrado)
+                            .addComponent(bttCalcularRectangulo))))
+                .addContainerGap(18, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(105, 105, 105)
+                .addComponent(bttBorrar)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(bttSalir)
+                .addGap(82, 82, 82))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(18, 18, 18)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2)
+                    .addComponent(txtRadio, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bttCalcularCirculo))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(txtBaseR, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel5)
+                    .addComponent(txtAlturaR, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bttCalcularRectangulo))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel7)
+                    .addComponent(txtLadoCuadrado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bttCalcularCuadrado))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel9)
+                    .addComponent(txtBaseTR, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel10)
+                    .addComponent(txtAlturaTR, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bttCalcularTR))
+                .addGap(18, 18, 18)
+                .addComponent(txtArea)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtPerimetro)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtTipo)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bttBorrar)
+                    .addComponent(bttSalir))
+                .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void bttCalcularCirculoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bttCalcularCirculoActionPerformed
+        // TODO add your handling code here:
+        double radio, perimetro,area;
+        
+        radio = Double.parseDouble(txtRadio.getText());
+        circulo a = new circulo(radio);
+        
+        area = a.calcularArea();
+        perimetro = a.calcularPerimetro();
+        
+        txtArea.setText("El area del circulo es "+area);
+        txtPerimetro.setText("El perimetro del circulo es "+perimetro);
+    }//GEN-LAST:event_bttCalcularCirculoActionPerformed
+
+    private void bttBorrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bttBorrarActionPerformed
+        // TODO add your handling code here:
+        txtRadio.setText("");
+        txtArea.setText("");
+        txtPerimetro.setText("");
+        txtBaseR.setText("");
+        txtAlturaR.setText("");
+        txtLadoCuadrado.setText("");
+        txtBaseTR.setText("");
+        txtAlturaTR.setText("");
+        txtTipo.setText("");
+    }//GEN-LAST:event_bttBorrarActionPerformed
+
+    private void bttCalcularRectanguloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bttCalcularRectanguloActionPerformed
+        // TODO add your handling code here:
+        double base,altura,area,perimetro;
+        
+        base = Double.parseDouble(txtBaseR.getText());
+        altura = Double.parseDouble(txtAlturaR.getText());
+        
+        rectangulo b = new rectangulo(base,altura);
+        
+        area = b.calcularArea();
+        perimetro = b.calcularPerimetro();
+        
+        txtArea.setText("El area del rectangulo es "+area);
+        txtPerimetro.setText("El perimetro del rectangulo es "+perimetro);
+    }//GEN-LAST:event_bttCalcularRectanguloActionPerformed
+
+    private void bttCalcularCuadradoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bttCalcularCuadradoActionPerformed
+        // TODO add your handling code here:
+        double lado, area, perimetro;
+        
+        lado = Double.parseDouble(txtLadoCuadrado.getText());
+        cuadrado c = new cuadrado(lado);
+        
+        perimetro = c.calcularPerimetro();
+        area = c.calcularArea();
+        
+        txtArea.setText("El area del cuadrado es "+area);
+        txtPerimetro.setText("El perimetro del cuadrado es "+perimetro);
+    }//GEN-LAST:event_bttCalcularCuadradoActionPerformed
+
+    private void bttCalcularTRActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bttCalcularTRActionPerformed
+        // TODO add your handling code here:
+        double base,altura,area,perimetro;
+        
+        base = Double.parseDouble(txtBaseTR.getText());
+        altura = Double.parseDouble(txtAlturaTR.getText());
+        trianguloRectangulo d = new trianguloRectangulo(base,altura);
+        
+       area = d.calcularArea();
+       perimetro = d.calcularPerimetro();
+       
+       txtArea.setText("El area del triangulo rectangulo es "+area);
+       txtPerimetro.setText("El perimetro del triangulo es "+perimetro);
+       txtTipo.setText(d.determinarTipoTriangulo());
+    }//GEN-LAST:event_bttCalcularTRActionPerformed
+
+    private void bttSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bttSalirActionPerformed
+        // TODO add your handling code here:
+        System.exit(0);
+    }//GEN-LAST:event_bttSalirActionPerformed
 
     /**
      * @param args the command line arguments
@@ -78,5 +359,30 @@ public class Formulario extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton bttBorrar;
+    private javax.swing.JButton bttCalcularCirculo;
+    private javax.swing.JButton bttCalcularCuadrado;
+    private javax.swing.JButton bttCalcularRectangulo;
+    private javax.swing.JButton bttCalcularTR;
+    private javax.swing.JButton bttSalir;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JTextField txtAlturaR;
+    private javax.swing.JTextField txtAlturaTR;
+    private javax.swing.JLabel txtArea;
+    private javax.swing.JTextField txtBaseR;
+    private javax.swing.JTextField txtBaseTR;
+    private javax.swing.JTextField txtLadoCuadrado;
+    private javax.swing.JLabel txtPerimetro;
+    private javax.swing.JTextField txtRadio;
+    private javax.swing.JLabel txtTipo;
     // End of variables declaration//GEN-END:variables
 }
